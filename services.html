@@ -19,11 +19,11 @@
 </head>
 <body>
     
-    <header class="bg-pink-600 text-white py-4">
+    <header class="bg-pink-600 text-white py-4 px-4">
       <nav class="container mx-auto flex justify-between items-center">
         <h1 class="text-1xl font-bold"><span>EBONY CHILDREN HAIR WORLD</span></h1>
-        <div class="md:hidden">
-          <button id="hamburger" class="text-white hover:underline">
+        <div class="md:hidden" id="hamburger">
+          <button  class="text-white hover:underline">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -41,7 +41,7 @@
           </button>
 
         </div>
-        <ul  class="hidden md:flex space-x-6">
+        <ul  class="hidden md:flex space-x-6" id="menu">
           <li class="items-center"><a href="index.html">HOME</a></li>
           <li class="items-center"><a href="#">SERVICES</a></li>
           <li class="items-center"><a href="booking.html">BOOK NOW</a></li>
@@ -53,8 +53,8 @@
           <!-- services section -->
     <section id="services" class="py-16 text-center">
       <h2 class="text-3xl font-bold text-gray-500">WEAVING</h2>
-      <p class="capitalize text-lg mt-4 text-gray-500">
-        We offer variety of beautiful hairstyle for the child you love
+      <p class="capitalize text-lg mt-4 text-gray-500 px-6">
+        We offer variety of beautiful <span class="text-pink-500 font-bold">hairstyle</span> for the child you love
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -67,7 +67,7 @@
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
           <h3 class="font-semibold text-lg text-gray-600">Ziz-zag Weave</h3>
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 60mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -84,7 +84,7 @@
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
           <h3 class="font-semibold text-lg text-gray-600">CORN-ROW</h3>
-          <p class="text-gray-600">Price: #2,500</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,500</p>
           <p class="text-gray-600 mb-4">Duration: 70mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -101,7 +101,7 @@
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
           <h3 class="font-semibold text-lg text-gray-600">CLAPPING</h3>
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 60mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -118,7 +118,7 @@
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
           <h3 class="font-semibold text-lg text-gray-600">CLAPPING Weave</h3>
-          <p class="text-gray-600">Price: #2,400</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,400</p>
           <p class="text-gray-600 mb-4">Duration: 80mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -135,7 +135,7 @@
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
           <h3 class="font-semibold text-lg text-gray-600">CLAPPING</h3>
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 70mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -152,7 +152,7 @@
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
           <h3 class="font-semibold text-lg text-gray-600">Ziz-zag Weave</h3>
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 60mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -164,8 +164,8 @@
     </section>
 
     <section id="services" class="py-16 text-center">
-      <h2 class="text-3xl font-bold text-gray-500">THREADING</h2>
-      <p class="capitalize text-lg mt-4 text-gray-500">
+      <h2 class="text-3xl font-bold text-pink-500">THREADING</h2>
+      <p class="capitalize text-lg mt-4 text-gray-500 px-6">
         We offer trending hairstyle for the child you love
       </p>
 
@@ -178,7 +178,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 60mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -194,7 +194,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,500</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,500</p>
           <p class="text-gray-600 mb-4">Duration: 70mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -210,7 +210,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 60mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -226,7 +226,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,400</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,400</p>
           <p class="text-gray-600 mb-4">Duration: 80mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -242,7 +242,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 70mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -258,7 +258,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-60 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 60mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -271,7 +271,7 @@
 
 
     <section id="services" class="py-16 text-center">
-      <h2 class="text-3xl font-bold text-gray-500">BRAIDS</h2>
+      <h2 class="text-3xl font-bold text-pink-500 px-6">BRAIDS</h2>
       <p class="capitalize text-lg mt-4 text-gray-500">
         We offer trending hairstyle for the child you love
       </p>
@@ -285,7 +285,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-30 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,000</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,000</p>
           <p class="text-gray-600 mb-4">Duration: 60mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -301,7 +301,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-50 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,500</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,500</p>
           <p class="text-gray-600 mb-4">Duration: 70mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -317,7 +317,7 @@
             srcset=""
             class="mb-4 max-w-full rounded h-30 w-full object-cover"
           />
-          <p class="text-gray-600">Price: #2,500</p>
+          <p class="text-gray-600 text-pink-500 font-bold">Price: #2,500</p>
           <p class="text-gray-600 mb-4">Duration: 70mins</p>
           <button
             class="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-white hover:text-pink-700 hover:font-bold hover:text-2xl"
@@ -332,13 +332,13 @@
 
 
     <section class="py-13 text-center mt-6 mb-8" id="contact">
-      <h2 class="text-gray-500 text-2xl font-semibold">Contact Us</h2>
-      <p class="mb-6 text-lg text-gray-500 mt-4">
+      <h2 class="text-pink-500 text-2xl font-semibold">Contact Us</h2>
+      <p class="mb-6 text-lg text-gray-500 mt-4 px-6">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
         exercitationem? Expedita molestias vero quibusdam iure ducimus eveniet,
         corporis facilis hic?
       </p>
-      <a href="" class="bg-purple-500 text-white rounded py-2 px-4 mt-6"
+      <a href="" class="border border-pink-500 text-gray-500 rounded py-2 px-4 mt-6"
         >Click Here</a
       >
     </section>
@@ -386,5 +386,7 @@
         </div>
         <p>&copy; 2023 Ebony Children Hair World</p>
       </footer>
+
+      <script src="services.js"></script>
 </body>
 </html>
