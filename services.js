@@ -1,5 +1,6 @@
+
 let hamburgerButton= document.querySelector('#hamburger')
-let menuButton = document.querySelector('#menu')
+let menuButton = document.querySelector('#mobile-menu')
 let closeMenu = document.querySelector('.close')
 
 hamburgerButton.addEventListener('click', ()=>{
@@ -11,3 +12,4 @@ hamburgerButton.addEventListener('click', ()=>{
 
     
 })
+
